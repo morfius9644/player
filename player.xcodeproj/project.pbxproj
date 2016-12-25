@@ -54,14 +54,46 @@
 		04A9A9821E10641C00C2B12C /* player */ = {
 			isa = PBXGroup;
 			children = (
-				04A9A9831E10641C00C2B12C /* AppDelegate.swift */,
-				04A9A9851E10641C00C2B12C /* ViewController.swift */,
-				04A9A9871E10641C00C2B12C /* Main.storyboard */,
-				04A9A98A1E10641C00C2B12C /* Assets.xcassets */,
-				04A9A98C1E10641C00C2B12C /* LaunchScreen.storyboard */,
-				04A9A98F1E10641C00C2B12C /* Info.plist */,
+				04A9A9981E10713900C2B12C /* Supporting Files */,
+				04A9A9971E10713200C2B12C /* View */,
+				04A9A9961E10712100C2B12C /* Controller */,
+				04A9A9951E10711A00C2B12C /* Model */,
 			);
 			path = player;
+			sourceTree = "<group>";
+		};
+		04A9A9951E10711A00C2B12C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				04A9A9831E10641C00C2B12C /* AppDelegate.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		04A9A9961E10712100C2B12C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				04A9A9851E10641C00C2B12C /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		04A9A9971E10713200C2B12C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04A9A9871E10641C00C2B12C /* Main.storyboard */,
+				04A9A98C1E10641C00C2B12C /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		04A9A9981E10713900C2B12C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04A9A98F1E10641C00C2B12C /* Info.plist */,
+				04A9A98A1E10641C00C2B12C /* Assets.xcassets */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,7 +236,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -248,7 +280,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -264,6 +296,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = N2877S2FTH;
 				INFOPLIST_FILE = player/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.morfius964.player;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -278,6 +311,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = N2877S2FTH;
 				INFOPLIST_FILE = player/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.morfius964.player;
 				PRODUCT_NAME = "$(TARGET_NAME)";
